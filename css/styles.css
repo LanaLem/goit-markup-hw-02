@@ -6,6 +6,7 @@
   --white: rgba(255, 255, 255);
   --black: #000000;
   --button-color: #f5f4fa;
+  --alpha: 0.6;
 }
 /* СТИЛИ ДЛЯ ВСЕГО САЙТА */
 body {
@@ -172,7 +173,7 @@ body {
 }
 
 .mail-phone {
-  color: var(--white, 0.6);
+  color: var(--white), var(--alpha);
 }
 /* страница портфолио */
 /* кнопки */
